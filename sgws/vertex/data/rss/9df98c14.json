@@ -1,0 +1,33 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "替换自己的RSS链接"
+  ],
+  "alias": "33.烧包",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "0",
+  "downloadLimit": "0",
+  "category": "PTS",
+  "id": "9df98c14",
+  "sameServerClients": [],
+  "maxClientUploadSpeed": "0",
+  "maxClientDownloadSpeed": "0",
+  "maxClientUploadSpeedUnit": "MiB",
+  "maxClientDownloadSpeedUnit": "MiB",
+  "pushTorrentFile": false
+}

@@ -1,0 +1,31 @@
+{
+  "id": "3e988d8d",
+  "conditions": [
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "50*1024"
+    },
+    {
+      "key": "category",
+      "compareType": "equals",
+      "value": "keep"
+    },
+    {
+      "key": "tracker",
+      "compareType": "contain",
+      "value": "dmhy"
+    },
+    {
+      "key": "addedTime",
+      "compareType": "bigger",
+      "value": "2*3600"
+    }
+  ],
+  "alias": "甲骨文-U2删种（需把分类改为keep）",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "90",
+  "used": true
+}

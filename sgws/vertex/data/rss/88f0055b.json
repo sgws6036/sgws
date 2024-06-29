@@ -1,0 +1,31 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": true,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": false,
+  "pushTorrentFile": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "填入RSS"
+  ],
+  "alias": "14.好大-抓取免费",
+  "clientSortBy": "uploadSpeed",
+  "cookie": "填写自己的Cookie！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！",
+  "uploadLimit": "180",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "category": "HDA",
+  "id": "88f0055b",
+  "sameServerClients": []
+}

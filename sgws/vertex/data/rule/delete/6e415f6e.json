@@ -1,0 +1,15 @@
+{
+  "id": "6e415f6e",
+  "conditions": [
+    {
+      "key": "",
+      "compareType": "",
+      "value": ""
+    }
+  ],
+  "alias": "3倍分享率跳车",
+  "type": "javascript",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  const categoryList = [\n    \"keep\",\"KEEP\",\n    \"chdbits\",\n    \"ourbits\",\n    \"hdhome\",\n    \"lemonhd\",\n    \"pter\",\n    \"audiences\",\n    \"hdchina\",\n    \"hdsky\",\n    \"改站点\",\n  ];\n  const { uploaded, size, category } = torrent;\n  if (categoryList.indexOf(category) !== -1) {\n    return false;\n  }\n  if (uploaded / size >= 3) {\n    return true;\n  }\n\n  return false;\n};\n",
+  "deleteNum": "3"
+}

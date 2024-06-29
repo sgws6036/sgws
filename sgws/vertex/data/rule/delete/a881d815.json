@@ -1,0 +1,21 @@
+{
+  "id": "a881d815",
+  "conditions": [
+    {
+      "key": "progress",
+      "compareType": "equals",
+      "value": "1"
+    },
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "500*1024"
+    }
+  ],
+  "alias": "猫/猪猪 删种规则2(上传小于500k进度慢种)",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "0",
+  "used": false
+}

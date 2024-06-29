@@ -1,0 +1,36 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "替换自己的RSS链接"
+  ],
+  "alias": "23.杜比（需开vip）",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "90",
+  "downloadLimit": "0",
+  "uploadLimitUnit": "MiB",
+  "downloadLimitUnit": "MiB",
+  "category": "DB",
+  "cookie": "替换自己的Cookie！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！",
+  "id": "01ded326",
+  "sameServerClients": [],
+  "maxClientUploadSpeed": "0",
+  "maxClientUploadSpeedUnit": "MiB",
+  "maxClientDownloadSpeed": "0",
+  "maxClientDownloadSpeedUnit": "MiB",
+  "pushTorrentFile": false
+}

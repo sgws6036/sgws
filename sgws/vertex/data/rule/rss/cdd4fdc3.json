@@ -1,0 +1,14 @@
+{
+  "id": "cdd4fdc3",
+  "conditions": [
+    {
+      "key": "size",
+      "compareType": "bigger",
+      "value": "1024*1024*1024*150"
+    }
+  ],
+  "code": "(torrent) => {\n  return false;\n}",
+  "alias": "种子大于150g",
+  "type": "normal",
+  "used": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "08de01c7",
+  "conditions": [
+    {
+      "key": "",
+      "compareType": "",
+      "value": ""
+    }
+  ],
+  "alias": "NC-瓷器非免跳车",
+  "type": "javascript",
+  "code": "(maindata, torrent) => {\n  const categoryList = [\"keep\",\"KEEP\"];\n  const { state, category, addedTime } = torrent;\n  const { num_incomplete } = torrent.originProp;\n  if (categoryList.indexOf(category) !== -1) {\n    return false;\n  }\n  if (state == 'downloading' && category == 'HDC' && moment().unix() - addedTime >= 180 && num_incomplete <= 19) {\n    return true;\n  }\n\n  return false;\n};\n",
+  "deleteNum": "2",
+  "used": true
+}

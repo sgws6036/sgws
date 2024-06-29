@@ -1,0 +1,33 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "替换自己的RSS链接"
+  ],
+  "alias": "10.月月",
+  "clientSortBy": "uploadSpeed",
+  "cookie": "c_secure_uid=MzYyMTQ%3D; c_secure_pass=df50f90341ba38c3e85f26087405be29; c_secure_ssl=eWVhaA%3D%3D; c_secure_tracker_ssl=eWVhaA%3D%3D; c_secure_login=bm9wZQ%3D%3D; _ga=GA1.2.1370283927.1655257808; _gid=GA1.2.1385458840.1655257808",
+  "uploadLimit": "15",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "downloadLimitUnit": "MiB",
+  "id": "dc108471",
+  "sameServerClients": [],
+  "category": "FRD",
+  "sleepTime": "",
+  "pushTorrentFile": false
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2ef5f2a7",
+  "conditions": [
+    {
+      "key": "progress",
+      "compareType": "bigger",
+      "value": "0"
+    },
+    {
+      "key": "freeSpace",
+      "compareType": "smaller",
+      "value": "1024*1024*1024*100"
+    },
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "1024*1024*8"
+    },
+    {
+      "key": "category",
+      "compareType": "notIncludeIn",
+      "value": "KEEP,keep"
+    }
+  ],
+  "alias": "剩余空间100g上传小于8M",
+  "type": "normal",
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "5",
+  "deleteNum": "4",
+  "used": true
+}

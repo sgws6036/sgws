@@ -1,0 +1,26 @@
+{
+  "id": "57b4640c",
+  "conditions": [
+    {
+      "key": "category",
+      "compareType": "notContain",
+      "value": "KEEP,keep,BTS"
+    },
+    {
+      "key": "freeSpace",
+      "compareType": "smaller",
+      "value": "1024*1024*1024*500"
+    },
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "1024*100"
+    }
+  ],
+  "alias": "甲骨文-500G剩余硬盘时速度小于100K",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "120",
+  "used": true
+}

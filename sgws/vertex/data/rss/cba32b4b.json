@@ -1,0 +1,26 @@
+{
+  "acceptRules": [],
+  "clientArr": [
+    "b8709780"
+  ],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "填入自己的RSS"
+  ],
+  "id": "cba32b4b",
+  "alias": "46.阿童木",
+  "uploadLimit": "70",
+  "uploadLimitUnit": "MiB",
+  "downloadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "maxSleepTime": "600",
+  "addCountPerHour": "20",
+  "cron": "* * * * *",
+  "skipSameTorrent": true,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "clientSortBy": "uploadSpeed",
+  "enable": false,
+  "pushNotify": false
+}

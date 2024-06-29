@@ -1,0 +1,31 @@
+{
+  "id": "a4a6653d",
+  "conditions": [
+    {
+      "key": "completedTime",
+      "compareType": "bigger",
+      "value": "40*3600"
+    },
+    {
+      "key": "category",
+      "compareType": "contain",
+      "value": "keep"
+    },
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "30*1024"
+    },
+    {
+      "key": "tracker",
+      "compareType": "contain",
+      "value": "open"
+    }
+  ],
+  "alias": "甲骨文-皇后删种（需把分类改为keep）",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "120",
+  "used": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": "0e30d9d6",
+  "conditions": [
+    {
+      "key": "size",
+      "compareType": "smaller",
+      "value": "1024*1024*1024*5"
+    }
+  ],
+  "code": "(torrent) => {\n  return false;\n}",
+  "alias": "种子小于5g",
+  "type": "normal",
+  "used": false
+}

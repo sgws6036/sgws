@@ -1,0 +1,26 @@
+{
+  "id": "10306d88",
+  "conditions": [
+    {
+      "key": "freeSpace",
+      "compareType": "smaller",
+      "value": "1024*1024*1024*10"
+    },
+    {
+      "key": "progress",
+      "compareType": "bigger",
+      "value": "0.1"
+    },
+    {
+      "key": "category",
+      "compareType": "notContain",
+      "value": "KEEP,keep"
+    }
+  ],
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "alias": "NC-剩余空间10g上传小于80M",
+  "type": "normal",
+  "deleteNum": "1",
+  "used": true,
+  "fitTime": "5"
+}

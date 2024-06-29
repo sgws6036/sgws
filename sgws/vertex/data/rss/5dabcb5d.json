@@ -1,0 +1,32 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "pushTorrentFile": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "填入自己的RSS"
+  ],
+  "alias": "21.冬樱（需论坛备案）",
+  "clientSortBy": "uploadSpeed",
+  "maxClientDownloadSpeed": "0",
+  "maxClientUploadSpeed": "0",
+  "uploadLimit": "95",
+  "downloadLimit": "0",
+  "category": "WTS",
+  "id": "5dabcb5d",
+  "sameServerClients": [],
+  "uploadLimitUnit": "MiB"
+}

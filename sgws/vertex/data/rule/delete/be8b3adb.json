@@ -1,0 +1,16 @@
+{
+  "id": "be8b3adb",
+  "conditions": [
+    {
+      "key": "",
+      "compareType": "",
+      "value": ""
+    }
+  ],
+  "alias": "NC-无效做种",
+  "type": "javascript",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  const categoryList = [\"keep\",\"KEEP\"];\n  const stateList = [\"uploading\", \"stalledUP\"];\n  const { state, uploadSpeed, category, completedTime } = torrent;\n  if (categoryList.indexOf(category) !== -1) {\n    return false;\n  }\n  if (\n    stateList.indexOf(state) !== -1 &&\n    uploadSpeed <= util.calSize(512, \"KiB\") &&\n    moment().unix() - completedTime >= 5400\n  ) {\n    return true;\n  }\n\n  return false;\n};\n",
+  "deleteNum": "5",
+  "used": true
+}

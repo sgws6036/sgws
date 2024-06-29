@@ -1,0 +1,30 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": true,
+  "pushTorrentFile": true,
+  "cron": "* * * * *",
+  "addCountPerHour": "",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    ""
+  ],
+  "alias": "47.HDTIME",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "160",
+  "downloadLimit": "0",
+  "uploadLimitUnit": "MiB",
+  "id": "11009e52",
+  "category": "HDT",
+  "sameServerClients": []
+}

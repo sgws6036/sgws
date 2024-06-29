@@ -1,0 +1,12 @@
+[2024-06-29T13:05:30.600][INFO console] 30 (app/common/Client.js 75:12) 下载器 0-NC|Lin 初始化完毕
+[2024-06-29T13:05:30.610][INFO console] 30 (vertex/app/app.js 165:12) HTTP 服务器启动, 监听端口:  3000
+[2024-06-29T13:05:30.701][INFO console] 30 (app/libs/redis.js 14:10) Redis connected!
+[2024-06-29T13:05:40.008][INFO console] 30 (app/common/Client.js 239:14) 下载器 0-NC|Lin 登录成功
+[2024-06-29T13:06:03.031][INFO console] 24 (app/common/Client.js 75:12) 下载器 0-NC|Lin 初始化完毕
+[2024-06-29T13:06:03.041][INFO console] 24 (vertex/app/app.js 165:12) HTTP 服务器启动, 监听端口:  3000
+[2024-06-29T13:06:03.124][INFO console] 24 (app/libs/redis.js 14:10) Redis connected!
+[2024-06-29T13:06:03.144][INFO console] 24 (app/common/Client.js 239:14) 下载器 0-NC|Lin 登录成功
+[2024-06-29T13:06:21.185][INFO console] 24 (app/controller/User.js 12:14) 登录成功, IP: 5.252.226.171
+[2024-06-29T13:06:33.144][INFO console] 24 (app/common/Client.js 174:12) 销毁下载器实例 0-NC|Lin
+[2024-06-29T13:06:33.168][INFO console] 24 (app/common/Client.js 75:12) 下载器 0-NC|Lin 初始化完毕
+[2024-06-29T13:06:33.173][INFO console] 24 (app/common/Client.js 239:14) 下载器 0-NC|Lin 登录成功

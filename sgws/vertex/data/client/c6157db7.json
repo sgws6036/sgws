@@ -1,0 +1,37 @@
+{
+  "id": "c6157db7",
+  "alias": "03-HZ-1t固态",
+  "host": "",
+  "username": "替换自己QB的用户名",
+  "password": "替换自己QB的密码",
+  "port": "",
+  "enable": false,
+  "pushNotify": false,
+  "pushMonitor": false,
+  "spaceAlarm": false,
+  "firstLastPiecePrio": true,
+  "cron": "*/4 * * * * *",
+  "autoDeleteCron": "* * * * *",
+  "autoReannounce": false,
+  "autoDelete": true,
+  "deleteRules": [
+    "55bb06cf",
+    "1f3a3f5e",
+    "08de01c7",
+    "1c93d24c",
+    "1ee7e199",
+    "10306d88",
+    "2eeb0c0d",
+    "62947ff1",
+    "7870ac33"
+  ],
+  "type": "qBittorrent",
+  "clientUrl": "替换自己QB的地址，最后的 / 需要删除",
+  "minFreeSpace": "10",
+  "minFreeSpaceUnit": "GiB",
+  "sameServerClients": [
+    "c6157db7"
+  ],
+  "used": false,
+  "status": false
+}

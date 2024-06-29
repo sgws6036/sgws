@@ -1,0 +1,24 @@
+{
+  "id": "967697f0",
+  "conditions": [
+    {
+      "key": "name",
+      "compareType": "contain",
+      "value": "OneHD,Blu-ray,BluRay,CHDPAD,CHDHKTV"
+    },
+    {
+      "key": "size",
+      "compareType": "bigger",
+      "value": "3*1024*1024*1024"
+    },
+    {
+      "key": "name",
+      "compareType": "notContain",
+      "value": "CHD,CHDBits"
+    }
+  ],
+  "alias": "彩虹岛非黄星-原盘",
+  "type": "normal",
+  "code": "(torrent) => {\n  return false;\n}",
+  "used": false
+}

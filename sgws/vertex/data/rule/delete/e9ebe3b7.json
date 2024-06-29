@@ -1,0 +1,32 @@
+{
+  "id": "e9ebe3b7",
+  "conditions": [
+    {
+      "key": "category",
+      "compareType": "contain",
+      "value": "KEEP"
+    },
+    {
+      "key": "freeSpace",
+      "compareType": "smaller",
+      "value": "500*1024*1024*1024"
+    },
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "100*1024"
+    },
+    {
+      "key": "progress",
+      "compareType": "bigger",
+      "value": "0.01"
+    }
+  ],
+  "alias": "拆包删种-甲骨文(硬盘空间小于500G, 上传速度小于100K)",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "60",
+  "used": true,
+  "deleteNum": "1"
+}

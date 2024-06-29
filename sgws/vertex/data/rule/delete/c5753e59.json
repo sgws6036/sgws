@@ -1,0 +1,20 @@
+{
+  "id": "c5753e59",
+  "conditions": [
+    {
+      "key": "category",
+      "compareType": "equals",
+      "value": "FSM"
+    },
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "3*1024*1024"
+    }
+  ],
+  "alias": "FSM飞天",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "0"
+}

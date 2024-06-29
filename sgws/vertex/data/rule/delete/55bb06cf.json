@@ -1,0 +1,31 @@
+{
+  "id": "55bb06cf",
+  "conditions": [
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "1024*1024*130"
+    },
+    {
+      "key": "freeSpace",
+      "compareType": "smaller",
+      "value": "1024*1024*1024*5"
+    },
+    {
+      "key": "progress",
+      "compareType": "bigger",
+      "value": "0.1"
+    },
+    {
+      "key": "category",
+      "compareType": "notIncludeIn",
+      "value": "KEEP,keep"
+    }
+  ],
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "alias": "NC-剩余空间5g上传小于130M",
+  "type": "normal",
+  "deleteNum": "4",
+  "used": true,
+  "fitTime": "5"
+}

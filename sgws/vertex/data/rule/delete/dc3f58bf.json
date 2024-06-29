@@ -1,0 +1,32 @@
+{
+  "id": "dc3f58bf",
+  "conditions": [
+    {
+      "key": "progress",
+      "compareType": "bigger",
+      "value": "0"
+    },
+    {
+      "key": "freeSpace",
+      "compareType": "smaller",
+      "value": "1024*1024*1024*100"
+    },
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "1024*1024*8"
+    },
+    {
+      "key": "category",
+      "compareType": "notContain",
+      "value": "KEEP,keep,BTS"
+    }
+  ],
+  "alias": "甲骨文-剩余空间100g上传小于8M",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "5",
+  "deleteNum": "4",
+  "used": true
+}

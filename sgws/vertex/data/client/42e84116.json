@@ -1,0 +1,37 @@
+{
+  "id": "42e84116",
+  "alias": "0-NC|Lin-猫专用",
+  "host": "",
+  "username": "sgws",
+  "password": "sgws6036",
+  "port": "",
+  "enable": false,
+  "pushNotify": false,
+  "pushMonitor": false,
+  "spaceAlarm": false,
+  "firstLastPiecePrio": false,
+  "cron": "*/4 * * * * *",
+  "autoDeleteCron": "* * * * *",
+  "autoReannounce": true,
+  "autoDelete": true,
+  "deleteRules": [
+    "ec64c814",
+    "a881d815"
+  ],
+  "type": "qBittorrent",
+  "clientUrl": "http://127.0.0.1:18080",
+  "minFreeSpace": "",
+  "minFreeSpaceUnit": "GiB",
+  "sameServerClients": [
+    "b8709780",
+    "42e84116"
+  ],
+  "used": false,
+  "status": false,
+  "allTimeUpload": 764550204951,
+  "allTimeDownload": 427590384691,
+  "uploadSpeed": 184544205,
+  "downloadSpeed": 161262925,
+  "leechingCount": 2,
+  "seedingCount": 0
+}

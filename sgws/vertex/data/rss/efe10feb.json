@@ -1,0 +1,30 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "pushTorrentFile": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "填入自己的RSS"
+  ],
+  "alias": "38.梓喵",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "95",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "category": "ZM",
+  "id": "efe10feb",
+  "sameServerClients": []
+}

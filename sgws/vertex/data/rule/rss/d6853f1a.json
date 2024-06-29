@@ -1,0 +1,14 @@
+{
+  "id": "d6853f1a",
+  "conditions": [
+    {
+      "key": "size",
+      "compareType": "smaller",
+      "value": "1024*1024*1024*3"
+    }
+  ],
+  "alias": "种子小于3g",
+  "type": "normal",
+  "code": "(torrent) => {\n  return false;\n}",
+  "used": false
+}

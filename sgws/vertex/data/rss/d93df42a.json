@@ -1,0 +1,31 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": true,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "pushTorrentFile": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "填入自己的RSS"
+  ],
+  "alias": "25.U2",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "50",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "category": "U2",
+  "id": "d93df42a",
+  "sameServerClients": [],
+  "cookie": "填入自己的cookie"
+}

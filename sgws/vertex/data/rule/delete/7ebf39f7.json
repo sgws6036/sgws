@@ -1,0 +1,29 @@
+{
+  "id": "7ebf39f7",
+  "conditions": [
+    {
+      "key": "progress",
+      "compareType": "equals",
+      "value": "0"
+    },
+    {
+      "key": "category",
+      "compareType": "notContain",
+      "value": "KEEP,keep,BTS"
+    },
+    {
+      "key": "addedTime",
+      "compareType": "bigger",
+      "value": "36*3600"
+    },
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "50*1024"
+    }
+  ],
+  "alias": "甲骨文-36小时无人做种",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}"
+}

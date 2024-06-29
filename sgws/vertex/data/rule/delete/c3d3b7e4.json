@@ -1,0 +1,32 @@
+{
+  "id": "c3d3b7e4",
+  "conditions": [
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "50*1024"
+    },
+    {
+      "key": "progress",
+      "compareType": "bigger",
+      "value": "0.9"
+    },
+    {
+      "key": "category",
+      "compareType": "notContain",
+      "value": "keep,KEEP"
+    },
+    {
+      "key": "freeSpace",
+      "compareType": "smaller",
+      "value": "100*1024*1024*1024"
+    }
+  ],
+  "alias": "NC-空间剩余100g上传速度低于50k持续1分钟",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "deleteNum": "5",
+  "fitTime": "60",
+  "used": true
+}

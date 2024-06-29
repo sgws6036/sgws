@@ -1,0 +1,32 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": true,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    ""
+  ],
+  "alias": "13.铂金家",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "80",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "cookie": "",
+  "category": "PTH",
+  "id": "2f7737df",
+  "sameServerClients": [],
+  "pushTorrentFile": true,
+  "paused": false
+}

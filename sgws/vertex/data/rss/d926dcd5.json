@@ -1,0 +1,31 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "替换自己的RSS链接"
+  ],
+  "alias": "39.好多油",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "95",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "90",
+  "category": "HDU",
+  "id": "d926dcd5",
+  "downloadLimitUnit": "MiB",
+  "sameServerClients": [],
+  "pushTorrentFile": false
+}

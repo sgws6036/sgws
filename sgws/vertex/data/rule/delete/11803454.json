@@ -1,0 +1,15 @@
+{
+  "id": "11803454",
+  "conditions": [
+    {
+      "key": "",
+      "compareType": "",
+      "value": ""
+    }
+  ],
+  "alias": "NC-慢车（删种厉害）",
+  "type": "javascript",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  const categoryList = [\"keep\"];\n  const stateList = [\"downloading\", \"stalledUP\", \"uploading\"];\n  const { state, uploadSpeed, progress, category} = torrent;\n  if (categoryList.indexOf(category) !== -1) {\n    return false;\n  }\nif (\n    maindata.leechingCount <= 4\n  ) {\n    return false;\n  }\n  if (\n    stateList.indexOf(state) !== -1 &&\n    uploadSpeed <= util.calSize(800, \"KiB\")\n  ) {\n    return true;\n  }\n\n  return false;\n};",
+  "fitTime": "20"
+}

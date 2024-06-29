@@ -1,0 +1,25 @@
+{
+  "id": "7870ac33",
+  "conditions": [
+    {
+      "key": "progress",
+      "compareType": "bigger",
+      "value": "0.2"
+    },
+    {
+      "key": "ratio",
+      "compareType": "smaller",
+      "value": "0.1"
+    },
+    {
+      "key": "category",
+      "compareType": "notIncludeIn",
+      "value": "KEEP,keep"
+    }
+  ],
+  "alias": "NC-种子进度0.2分享低于0.1 ",
+  "type": "normal",
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "deleteNum": "6",
+  "used": true
+}

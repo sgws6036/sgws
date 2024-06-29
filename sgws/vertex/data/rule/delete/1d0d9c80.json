@@ -1,0 +1,14 @@
+{
+  "id": "1d0d9c80",
+  "conditions": [
+    {
+      "key": "",
+      "compareType": "",
+      "value": ""
+    }
+  ],
+  "alias": "天空",
+  "type": "javascript",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  const http = require('http');\n  let urlList = 'http://localhost:18080/api/v2/torrents/info?filter=paused&sort=ratio&category=SKY';\n  let urlResume = 'http://localhost:18080/api/v2/torrents/resume?hashes=';\n  http.get(urlList, (res) => {\n    let rawData = \"\";\n    res.on(\"data\", (chunk) => {\n        rawData += chunk;\n    });\n    res.on(\"end\", () => {\n      let obj = JSON.parse(rawData);\n      obj.map((value,index)=>{\n        if(Date.now()/1000 - value['added_on'] > 3600){\n          urlResume = urlResume + value['hash'] + '|';\n          http.get(urlResume, function (res2) {\n\n          });\n        }\n      })\n    });\n  });\n  return false;\n}"
+}

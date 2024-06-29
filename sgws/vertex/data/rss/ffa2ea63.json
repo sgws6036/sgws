@@ -1,0 +1,30 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "替换自己的RSS链接"
+  ],
+  "alias": "12.熊猫",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "35",
+  "downloadLimit": "0",
+  "id": "ffa2ea63",
+  "category": "PD",
+  "sameServerClients": [],
+  "pushTorrentFile": false,
+  "uploadLimitUnit": "MiB"
+}

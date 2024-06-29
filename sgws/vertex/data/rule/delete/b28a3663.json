@@ -1,0 +1,20 @@
+{
+  "id": "b28a3663",
+  "conditions": [
+    {
+      "key": "ratio",
+      "compareType": "equals",
+      "value": "3.1"
+    },
+    {
+      "key": "category",
+      "compareType": "equals",
+      "value": "SKY"
+    }
+  ],
+  "alias": "NC-天空3倍删种",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "used": false
+}

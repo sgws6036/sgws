@@ -1,0 +1,29 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": true,
+  "pushTorrentFile": true,
+  "cron": "*/6 * * * *",
+  "addCountPerHour": "",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "此处填写RSS"
+  ],
+  "alias": "50.鲨鱼",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "0",
+  "downloadLimit": "0",
+  "id": "c6d53e26",
+  "category": "SHARK",
+  "sameServerClients": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "87bf9c6e",
+  "conditions": [
+    {
+      "key": "name",
+      "compareType": "contain",
+      "value": "TTG,WiKi,NGB,SweetDreamDay,cfandora,ARiN,doraemon,zyn1998,Dave,951,NTSC,PERFECT FLAC"
+    }
+  ],
+  "code": "(torrent) => {\n  return false;\n}",
+  "alias": "TTG",
+  "type": "normal",
+  "used": false
+}

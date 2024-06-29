@@ -1,0 +1,24 @@
+{
+  "id": "333e64ab",
+  "conditions": [
+    {
+      "key": "name",
+      "compareType": "contain",
+      "value": "CHDWEB"
+    },
+    {
+      "key": "size",
+      "compareType": "bigger",
+      "value": "3*1024*1024*1024"
+    },
+    {
+      "key": "size",
+      "compareType": "smaller",
+      "value": "30*1024*1024*1024"
+    }
+  ],
+  "alias": "彩虹岛非黄星-WEB",
+  "type": "normal",
+  "code": "(torrent) => {\n  return false;\n}",
+  "used": false
+}

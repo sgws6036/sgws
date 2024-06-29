@@ -1,0 +1,161 @@
+(N) 2024-04-20T08:59:40 - qBittorrent v4.3.9 started
+(N) 2024-04-20T08:59:40 - Using config directory: /config/qBittorrent/
+(I) 2024-04-20T08:59:40 - Trying to listen on: 0.0.0.0:6881,[::]:6881
+(N) 2024-04-20T08:59:40 - Peer ID: -qB4390-
+(N) 2024-04-20T08:59:40 - HTTP User-Agent is 'qBittorrent/4.3.9'
+(I) 2024-04-20T08:59:40 - DHT support [ON]
+(I) 2024-04-20T08:59:40 - Local Peer Discovery support [ON]
+(I) 2024-04-20T08:59:40 - PeX support [ON]
+(I) 2024-04-20T08:59:40 - Anonymous mode [OFF]
+(I) 2024-04-20T08:59:40 - Encryption support [ON]
+(W) 2024-04-20T08:59:40 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2024-04-20T08:59:40 - Using built-in Web UI.
+(N) 2024-04-20T08:59:40 - Web UI translation for selected locale (en_US) has been successfully loaded.
+(N) 2024-04-20T08:59:40 - Web UI: Now listening on IP: *, port: 18080
+(W) 2024-04-20T08:59:40 - Couldn't load torrents queue from '/config/qBittorrent/BT_backup/queue'. Error: No such file or directory
+(I) 2024-04-20T08:59:40 - Successfully listening on IP: 127.0.0.1, port: TCP/6881
+(I) 2024-04-20T08:59:40 - Successfully listening on IP: 127.0.0.1, port: UDP/6881
+(I) 2024-04-20T08:59:40 - Successfully listening on IP: 159.69.37.127, port: TCP/6881
+(I) 2024-04-20T08:59:40 - Successfully listening on IP: 159.69.37.127, port: UDP/6881
+(I) 2024-04-20T08:59:40 - Successfully listening on IP: ::1, port: TCP/6881
+(I) 2024-04-20T08:59:40 - Successfully listening on IP: ::1, port: UDP/6881
+(I) 2024-04-20T08:59:40 - Successfully listening on IP: 2a01:4f8:c2c:1b6b::1, port: TCP/6881
+(I) 2024-04-20T08:59:40 - Successfully listening on IP: 2a01:4f8:c2c:1b6b::1, port: UDP/6881
+(I) 2024-04-20T08:59:40 - Successfully listening on IP: fe80::9400:3ff:fe38:8c66%eth0, port: TCP/6881
+(I) 2024-04-20T08:59:40 - Successfully listening on IP: fe80::9400:3ff:fe38:8c66%eth0, port: UDP/6881
+(I) 2024-04-20T08:59:40 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Mon Apr 1 08:25:20 2024.
+(I) 2024-04-20T08:59:40 - Successfully updated IP geolocation database.
+(I) 2024-04-20T08:59:40 - Detected external IP: 159.69.37.127
+(I) 2024-04-20T08:59:41 - Detected external IP: 2a01:4f8:c2c:1b6b::1
+(I) 2024-04-20T08:59:48 - Successfully listening on IP: 172.17.0.1, port: TCP/6881
+(I) 2024-04-20T08:59:48 - Successfully listening on IP: 172.17.0.1, port: UDP/6881
+(I) 2024-04-20T08:59:48 - Successfully listening on IP: fe80::dc7e:54ff:feea:7cdd%veth7228013, port: TCP/6881
+(I) 2024-04-20T08:59:48 - Successfully listening on IP: fe80::dc7e:54ff:feea:7cdd%veth7228013, port: UDP/6881
+(I) 2024-04-20T08:59:48 - Successfully listening on IP: fe80::42:9eff:fe70:9fee%docker0, port: TCP/6881
+(I) 2024-04-20T08:59:48 - Successfully listening on IP: fe80::42:9eff:fe70:9fee%docker0, port: UDP/6881
+(I) 2024-04-20T09:03:37 - Successfully listening on IP: fe80::5cd6:d5ff:fe0d:9970%veth0cc3ea2, port: TCP/6881
+(I) 2024-04-20T09:03:37 - Successfully listening on IP: fe80::5cd6:d5ff:fe0d:9970%veth0cc3ea2, port: UDP/6881
+(N) 2024-04-20T09:08:32 - WebAPI login success. IP: ::ffff:104.245.33.99
+(I) 2024-04-20T09:09:10 - UPnP / NAT-PMP support [ON]
+(I) 2024-04-20T09:09:10 - DHT support [OFF]
+(W) 2024-04-20T09:09:10 - Restart is required to toggle PeX support
+(I) 2024-04-20T09:09:10 - Local Peer Discovery support [OFF]
+(N) 2024-04-20T09:09:11 - 已成功加载所选地区 (zh) 的 Web UI 翻译。
+(N) 2024-04-20T09:09:11 - Web UI：正在监听 IP：*，端口：18080
+(I) 2024-04-20T09:09:11 - 尝试监听：0.0.0.0:45000,[::]:45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：127.0.0.1，端口：TCP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：127.0.0.1，端口：UDP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：159.69.37.127，端口：TCP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：159.69.37.127，端口：UDP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：172.17.0.1，端口：TCP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：172.17.0.1，端口：UDP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：::1，端口：TCP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：::1，端口：UDP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：2a01:4f8:c2c:1b6b::1，端口：TCP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：2a01:4f8:c2c:1b6b::1，端口：UDP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：fe80::9400:3ff:fe38:8c66%eth0，端口：TCP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：fe80::9400:3ff:fe38:8c66%eth0，端口：UDP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：fe80::42:9eff:fe70:9fee%docker0，端口：TCP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：fe80::42:9eff:fe70:9fee%docker0，端口：UDP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：fe80::5cd6:d5ff:fe0d:9970%veth0cc3ea2，端口：TCP/45000
+(I) 2024-04-20T09:09:11 - 成功监听 IP：fe80::5cd6:d5ff:fe0d:9970%veth0cc3ea2，端口：UDP/45000
+(I) 2024-04-20T09:10:13 - 成功监听 IP：fe80::7cd9:60ff:fe2d:ea8e%vethf4657e4，端口：TCP/45000
+(I) 2024-04-20T09:10:13 - 成功监听 IP：fe80::7cd9:60ff:fe2d:ea8e%vethf4657e4，端口：UDP/45000
+(I) 2024-04-20T09:10:22 - UPnP / NAT-PMP 支持 [关闭]
+(N) 2024-04-20T09:10:26 - qBittorrent v4.3.9 已启动
+(N) 2024-04-20T09:10:26 - 使用配置目录：/config/qBittorrent/
+(I) 2024-04-20T09:10:26 - 尝试监听：0.0.0.0:45000,[::]:45000
+(N) 2024-04-20T09:10:26 - Peer ID：-qB4390-
+(N) 2024-04-20T09:10:26 - HTTP User-Agent 为 'qBittorrent/4.3.9'
+(I) 2024-04-20T09:10:26 - DHT 支持 [关闭]
+(I) 2024-04-20T09:10:26 - 本地用户发现支持 [关闭]
+(I) 2024-04-20T09:10:26 - PeX 支持 [关闭]
+(I) 2024-04-20T09:10:26 - 匿名模式 [关闭]
+(I) 2024-04-20T09:10:26 - 加密支持 [开启]
+(I) 2024-04-20T09:10:26 - UPnP / NAT-PMP 支持 [开启]
+(I) 2024-04-20T09:10:26 - IP 地理数据库已加载。类型：DBIP-Country-Lite。构建时间：Mon Apr 1 08:25:20 2024。
+(N) 2024-04-20T09:10:26 - 使用内置 Web UI。
+(N) 2024-04-20T09:10:26 - 已成功加载所选地区 (zh) 的 Web UI 翻译。
+(N) 2024-04-20T09:10:26 - Web UI：正在监听 IP：*，端口：18080
+(I) 2024-04-20T09:10:26 - 成功监听 IP：127.0.0.1，端口：TCP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：127.0.0.1，端口：UDP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：159.69.37.127，端口：TCP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：159.69.37.127，端口：UDP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：172.17.0.1，端口：TCP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：172.17.0.1，端口：UDP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：::1，端口：TCP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：::1，端口：UDP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：2a01:4f8:c2c:1b6b::1，端口：TCP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：2a01:4f8:c2c:1b6b::1，端口：UDP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：fe80::9400:3ff:fe38:8c66%eth0，端口：TCP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：fe80::9400:3ff:fe38:8c66%eth0，端口：UDP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：fe80::42:9eff:fe70:9fee%docker0，端口：TCP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：fe80::42:9eff:fe70:9fee%docker0，端口：UDP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：fe80::7cd9:60ff:fe2d:ea8e%vethf4657e4，端口：TCP/45000
+(I) 2024-04-20T09:10:26 - 成功监听 IP：fe80::7cd9:60ff:fe2d:ea8e%vethf4657e4，端口：UDP/45000
+(N) 2024-04-20T09:10:59 - WebAPI 登录成功。IP：::ffff:104.245.33.99
+(C) 2024-04-20T09:13:02 - UPnP/NAT-PMP：端口映射失败，消息：could not map port using UPnP: no router found
+(C) 2024-04-20T09:13:02 - UPnP/NAT-PMP：端口映射失败，消息：could not map port using UPnP: no router found
+(C) 2024-04-20T09:13:02 - UPnP/NAT-PMP：端口映射失败，消息：could not map port using UPnP: no router found
+(W) 2024-04-20T10:11:58 - Http 请求错误，关闭套接字。IP：::ffff:206.168.32.3
+(N) 2024-06-29T13:05:39 - qBittorrent v4.3.9 已启动
+(N) 2024-06-29T13:05:39 - 使用配置目录：/config/qBittorrent/
+(I) 2024-06-29T13:05:39 - 尝试监听：0.0.0.0:45000,[::]:45000
+(N) 2024-06-29T13:05:39 - Peer ID：-qB4390-
+(N) 2024-06-29T13:05:39 - HTTP User-Agent 为 'qBittorrent/4.3.9'
+(I) 2024-06-29T13:05:39 - DHT 支持 [关闭]
+(I) 2024-06-29T13:05:39 - 本地用户发现支持 [关闭]
+(I) 2024-06-29T13:05:39 - PeX 支持 [关闭]
+(I) 2024-06-29T13:05:39 - 匿名模式 [关闭]
+(I) 2024-06-29T13:05:39 - 加密支持 [开启]
+(I) 2024-06-29T13:05:39 - UPnP / NAT-PMP 支持 [开启]
+(I) 2024-06-29T13:05:39 - IP 地理数据库已加载。类型：DBIP-Country-Lite。构建时间：Mon Apr 1 08:25:20 2024。
+(N) 2024-06-29T13:05:39 - 使用内置 Web UI。
+(N) 2024-06-29T13:05:39 - 已成功加载所选地区 (zh) 的 Web UI 翻译。
+(N) 2024-06-29T13:05:39 - Web UI：正在监听 IP：*，端口：18080
+(I) 2024-06-29T13:05:39 - 成功监听 IP：127.0.0.1，端口：TCP/45000
+(I) 2024-06-29T13:05:39 - 成功监听 IP：127.0.0.1，端口：UDP/45000
+(I) 2024-06-29T13:05:39 - 成功监听 IP：152.53.32.62，端口：TCP/45000
+(I) 2024-06-29T13:05:39 - 成功监听 IP：152.53.32.62，端口：UDP/45000
+(I) 2024-06-29T13:05:39 - 成功监听 IP：::1，端口：TCP/45000
+(I) 2024-06-29T13:05:39 - 成功监听 IP：::1，端口：UDP/45000
+(I) 2024-06-29T13:05:39 - 成功监听 IP：2a0a:4cc0:100:2ac:434:d7ff:fe03:61e2，端口：TCP/45000
+(I) 2024-06-29T13:05:39 - 成功监听 IP：2a0a:4cc0:100:2ac:434:d7ff:fe03:61e2，端口：UDP/45000
+(I) 2024-06-29T13:05:39 - 成功监听 IP：fe80::434:d7ff:fe03:61e2%eth0，端口：TCP/45000
+(I) 2024-06-29T13:05:39 - 成功监听 IP：fe80::434:d7ff:fe03:61e2%eth0，端口：UDP/45000
+(I) 2024-06-29T13:05:39 - IP 地理数据库已加载。类型：DBIP-Country-Lite。构建时间：Sat Jun 1 08:35:40 2024。
+(I) 2024-06-29T13:05:39 - 成功更新 IP 地理数据库。
+(I) 2024-06-29T13:05:47 - 成功监听 IP：172.17.0.1，端口：TCP/45000
+(I) 2024-06-29T13:05:47 - 成功监听 IP：172.17.0.1，端口：UDP/45000
+(I) 2024-06-29T13:05:47 - UPnP / NAT-PMP 支持 [关闭]
+(N) 2024-06-29T13:05:51 - qBittorrent v4.3.9 已启动
+(N) 2024-06-29T13:05:51 - 使用配置目录：/config/qBittorrent/
+(I) 2024-06-29T13:05:51 - 尝试监听：0.0.0.0:45000,[::]:45000
+(N) 2024-06-29T13:05:51 - Peer ID：-qB4390-
+(N) 2024-06-29T13:05:51 - HTTP User-Agent 为 'qBittorrent/4.3.9'
+(I) 2024-06-29T13:05:51 - DHT 支持 [关闭]
+(I) 2024-06-29T13:05:51 - 本地用户发现支持 [关闭]
+(I) 2024-06-29T13:05:51 - PeX 支持 [关闭]
+(I) 2024-06-29T13:05:51 - 匿名模式 [关闭]
+(I) 2024-06-29T13:05:51 - 加密支持 [开启]
+(I) 2024-06-29T13:05:51 - UPnP / NAT-PMP 支持 [开启]
+(I) 2024-06-29T13:05:51 - IP 地理数据库已加载。类型：DBIP-Country-Lite。构建时间：Sat Jun 1 08:35:40 2024。
+(N) 2024-06-29T13:05:51 - 使用内置 Web UI。
+(N) 2024-06-29T13:05:51 - 已成功加载所选地区 (zh) 的 Web UI 翻译。
+(N) 2024-06-29T13:05:51 - Web UI：正在监听 IP：*，端口：18080
+(I) 2024-06-29T13:05:51 - 成功监听 IP：127.0.0.1，端口：TCP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：127.0.0.1，端口：UDP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：152.53.32.62，端口：TCP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：152.53.32.62，端口：UDP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：172.17.0.1，端口：TCP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：172.17.0.1，端口：UDP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：::1，端口：TCP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：::1，端口：UDP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：2a0a:4cc0:100:2ac:434:d7ff:fe03:61e2，端口：TCP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：2a0a:4cc0:100:2ac:434:d7ff:fe03:61e2，端口：UDP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：fe80::434:d7ff:fe03:61e2%eth0，端口：TCP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：fe80::434:d7ff:fe03:61e2%eth0，端口：UDP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：fe80::42:42ff:fefa:95ac%docker0，端口：TCP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：fe80::42:42ff:fefa:95ac%docker0，端口：UDP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：fe80::a43d:e0ff:fede:4c0d%veth82610bb，端口：TCP/45000
+(I) 2024-06-29T13:05:51 - 成功监听 IP：fe80::a43d:e0ff:fede:4c0d%veth82610bb，端口：UDP/45000

@@ -1,0 +1,36 @@
+[2024-06-29T13:05:30.726[ERROR console] 30 (net.js 1159:16) 下载器 0-NC|Lin 登录失败
+ Error: connect ECONNREFUSED 127.0.0.1:18080
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 18080
+}
+[2024-06-29T13:05:32.005[ERROR console] 30 (net.js 1159:16) 下载器 0-NC|Lin 登录失败
+ Error: connect ECONNREFUSED 127.0.0.1:18080
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 18080
+}
+[2024-06-29T13:05:36.004[ERROR console] 30 (net.js 1159:16) 下载器 0-NC|Lin 登录失败
+ Error: connect ECONNREFUSED 127.0.0.1:18080
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 18080
+}
+[2024-06-29T13:05:48.005[ERROR console] 30 (net.js 1159:16) 下载器 0-NC|Lin 获取种子信息失败
+ Error: connect ECONNREFUSED 127.0.0.1:18080
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 18080
+}

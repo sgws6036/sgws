@@ -1,0 +1,26 @@
+{
+  "id": "1f3a3f5e",
+  "conditions": [
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "1024*50"
+    },
+    {
+      "key": "progress",
+      "compareType": "bigger",
+      "value": "0.05"
+    },
+    {
+      "key": "category",
+      "compareType": "notContain",
+      "value": "KEEP,keep,BTS"
+    }
+  ],
+  "alias": "甲骨文-上传速度小于50k持续2分钟删除",
+  "type": "normal",
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "120",
+  "deleteNum": "3",
+  "used": true
+}

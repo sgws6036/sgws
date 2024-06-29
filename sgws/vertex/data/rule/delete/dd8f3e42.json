@@ -1,0 +1,14 @@
+{
+  "id": "dd8f3e42",
+  "conditions": [
+    {
+      "key": "ratio3",
+      "compareType": "equals",
+      "value": "3.2"
+    }
+  ],
+  "alias": "馒头三倍删种 需下载器勾选",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}"
+}

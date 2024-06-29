@@ -1,0 +1,15 @@
+{
+  "id": "2eeb0c0d",
+  "conditions": [
+    {
+      "key": "",
+      "compareType": "",
+      "value": ""
+    }
+  ],
+  "alias": "甲骨文 NC-6小时未下载完",
+  "type": "javascript",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  const categoryList = [\"keep\",\"KEEP\",\"BTS\"];\n  const stateList = [\"downloading\", \"stalledDL\"];\n  const { state, addedTime, category, uploadSpeed } = torrent;\n  if (categoryList.indexOf(category) !== -1) {\n    return false;\n  }\n  if (\n    stateList.indexOf(state) !== -1 &&\n    moment().unix() - addedTime >= 21600 &&\n    uploadSpeed <= util.calSize(5, \"MiB\")\n  ) {\n    return true;\n  }\n\n  return false;\n};\n",
+  "used": true
+}

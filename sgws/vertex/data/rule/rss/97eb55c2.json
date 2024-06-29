@@ -1,0 +1,18 @@
+{
+  "id": "97eb55c2",
+  "conditions": [
+    {
+      "key": "name",
+      "compareType": "contain",
+      "value": "CHDWEB,OneHD,Blu-ray,BluRay,CHDPAD,CHDHKTV"
+    },
+    {
+      "key": "size",
+      "compareType": "bigger",
+      "value": "3*1024*1024*1024"
+    }
+  ],
+  "alias": "彩虹岛黄星",
+  "type": "normal",
+  "code": "(torrent) => {\n  return false;\n}"
+}

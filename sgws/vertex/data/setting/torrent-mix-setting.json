@@ -1,0 +1,17 @@
+{
+  "showKeys": [
+    "name",
+    "size",
+    "flow",
+    "link",
+    "speed",
+    "state",
+    "category"
+  ],
+  "sort": {
+    "key": "uploadSpeed"
+  },
+  "clients": [
+    "6b6b97d4"
+  ]
+}

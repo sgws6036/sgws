@@ -1,0 +1,17 @@
+{
+  "id": "ec64c814",
+  "conditions": [
+    {
+      "key": "freeSpace",
+      "compareType": "smaller",
+      "value": "1024*1024*1024*5"
+    }
+  ],
+  "alias": "猫 删种规则1(空间不足5G)",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "0",
+  "pause": false,
+  "used": false
+}

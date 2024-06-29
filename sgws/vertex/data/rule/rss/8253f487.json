@@ -1,0 +1,13 @@
+{
+  "id": "8253f487",
+  "conditions": [
+    {
+      "key": "name",
+      "compareType": "contain",
+      "value": "UBits"
+    }
+  ],
+  "alias": "Ubits-排除HR",
+  "type": "normal",
+  "code": "(torrent) => {\n  return false;\n}"
+}

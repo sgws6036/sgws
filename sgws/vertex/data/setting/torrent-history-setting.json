@@ -1,0 +1,10 @@
+{
+  "showKeys": [
+    "name",
+    "rss",
+    "size",
+    "state",
+    "link",
+    "recordTime"
+  ]
+}

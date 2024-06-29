@@ -1,0 +1,36 @@
+{
+  "id": "d5883753",
+  "conditions": [
+    {
+      "key": "progress",
+      "compareType": "equals",
+      "value": "1"
+    },
+    {
+      "key": "uploadSpeed",
+      "compareType": "smaller",
+      "value": "1024*100"
+    },
+    {
+      "key": "downloadSpeed",
+      "compareType": "smaller",
+      "value": "1024*1024"
+    },
+    {
+      "key": "ratio",
+      "compareType": "bigger",
+      "value": "1.2"
+    },
+    {
+      "key": "category",
+      "compareType": "includeIn",
+      "value": "BTS"
+    }
+  ],
+  "alias": "甲骨文-学校分享率到1.2上传小于100K",
+  "type": "normal",
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "300",
+  "used": true,
+  "pause": false
+}

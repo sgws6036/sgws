@@ -1,0 +1,32 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "替换自己的RSS链接"
+  ],
+  "alias": "17.白兔",
+  "uploadLimit": "95",
+  "downloadLimit": "0",
+  "uploadLimitUnit": "MiB",
+  "downloadLimitUnit": "MiB",
+  "category": "HAR",
+  "clientSortBy": "uploadSpeed",
+  "id": "99309fc7",
+  "sameServerClients": [],
+  "sleepTime": "",
+  "pushTorrentFile": false
+}

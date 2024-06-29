@@ -1,0 +1,34 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "替换自己的RSS链接"
+  ],
+  "alias": "28.明教",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "0",
+  "downloadLimit": "0",
+  "category": "MJ",
+  "id": "73b3ce5c",
+  "sameServerClients": [],
+  "maxClientUploadSpeed": "0",
+  "maxClientUploadSpeedUnit": "MiB",
+  "maxClientDownloadSpeed": "0",
+  "maxClientDownloadSpeedUnit": "MiB",
+  "pushTorrentFile": false,
+  "uploadLimitUnit": "MiB"
+}

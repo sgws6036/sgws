@@ -1,0 +1,31 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "替换自己的RSS链接"
+  ],
+  "alias": "15.时光",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "95",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "category": "HDT",
+  "id": "b4366081",
+  "downloadLimitUnit": "MiB",
+  "sameServerClients": [],
+  "pushTorrentFile": false
+}

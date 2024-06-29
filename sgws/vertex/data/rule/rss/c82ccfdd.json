@@ -1,0 +1,18 @@
+{
+  "id": "c82ccfdd",
+  "conditions": [
+    {
+      "key": "size",
+      "compareType": "bigger",
+      "value": "1024*1024*1024*3"
+    },
+    {
+      "key": "size",
+      "compareType": "smaller",
+      "value": "1024*1024*1024*40"
+    }
+  ],
+  "alias": "种子3-40g",
+  "type": "normal",
+  "code": "(torrent) => {\n  return false;\n}"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "b33277aa",
+  "conditions": [
+    {
+      "key": "ratio",
+      "compareType": "bigger",
+      "value": "3"
+    },
+    {
+      "key": "category",
+      "compareType": "notContain",
+      "value": "keep,KEEP"
+    }
+  ],
+  "alias": "NC-分享率3倍删种",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}"
+}

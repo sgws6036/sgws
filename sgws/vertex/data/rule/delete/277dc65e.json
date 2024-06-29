@@ -1,0 +1,23 @@
+{
+  "id": "277dc65e",
+  "conditions": [
+    {
+      "key": "state",
+      "compareType": "equals",
+      "value": "stalledUP"
+    },
+    {
+      "key": "category",
+      "compareType": "notContain",
+      "value": "BTS,KEEP,keep,TTG,CHD,BTS"
+    }
+  ],
+  "alias": "甲骨文 NC-出种-完全没速度",
+  "type": "normal",
+  "priority": "0",
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "15",
+  "deleteNum": "10",
+  "used": true,
+  "pause": false
+}

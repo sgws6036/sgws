@@ -1,0 +1,34 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": "600",
+  "skipSameTorrent": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [
+    "333e64ab",
+    "967697f0"
+  ],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    "替换自己的RSS链接"
+  ],
+  "alias": "09.彩虹岛",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "95",
+  "uploadLimitUnit": "MiB",
+  "downloadLimit": "0",
+  "downloadLimitUnit": "MiB",
+  "category": "CHD",
+  "id": "8d4357e0",
+  "sameServerClients": [],
+  "pushTorrentFile": false
+}
